@@ -5,9 +5,9 @@ import face_recognition
 
 #Loading images and BGR TO RGB conversion
 
-imgTest = face_recognition.load_image_file('../images/Bill Gates Test.jpg') #for test image
+imgTest = face_recognition.load_image_file('../Report/Bill Gates Test.jpg') #for test image
 imgTest = cv2.cvtColor(imgTest,cv2.COLOR_BGR2RGB)
-imgBill = face_recognition.load_image_file('../images/Bill Gates.jpg') #for train image
+imgBill = face_recognition.load_image_file('../Report/Bill Gates.jpg') #for train image
 imgBill = cv2.cvtColor(imgBill,cv2.COLOR_BGR2RGB)
 
 #finding face and encodings for test image
